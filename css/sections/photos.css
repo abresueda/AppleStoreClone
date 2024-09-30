@@ -1,0 +1,7 @@
+#photos .photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    aspect-ratio: 1; /*Bütün fotoğrafların en ve boy oranını eşitliyor.*/
+    object-fit: cover; /*Sıkıştırılmış görsel görüntüsünü düzeltiyor.*/
+}
